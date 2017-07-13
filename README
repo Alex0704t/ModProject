@@ -1,0 +1,93 @@
+Project for STM32F4Discovery, LCD 320x240(controler ILI9341,
+touchscrean controller XPT2046), SD-Card
+
+/*
+ * Pin using table
+ ****************************************************
+ * PA0      User button
+ * PA1      //ADC input channel 1
+ * PA2		LCD_RESET
+ * PA3		SD_CS
+ * PA4      //Audio LRCK
+ * PA5      SD_CLK
+ * PA6      SD_DO
+ * PA7      SD_DIN
+ * PA8
+ * PA9      //USB VBUS_FS
+ * PA10     //USB OTG_ID
+ * PA11     USB OTG_FS_DM
+ * PA12     USB OTG_FS_PM
+ * PA13     ST-LINK TCK/SWCLK
+ * PA14     ST-LINK TMS/SWDIO
+ * PA15
+ * ****************************************************
+ * PB0
+ * PB1
+ * PB2
+ * PB3      ST-LINK T_SWO
+ * PB4      
+ * PB5      
+ * PB6      //Audio SDA
+ * PB7
+ * PB8
+ * PB9      //Audio SCL
+ * PB10     //Audio CLK_IN(Microphone)
+ * PB11
+ * PB12		TP_CS
+ * PB13     TP_SCK
+ * PB14     TP_SO
+ * PB15     TP_SI
+ * ****************************************************
+ * PC0      //USB OTG_FS_PowerSwitchOn
+ * PC1
+ * PC2
+ * PC3      //Audio PDM_OUT(Microphone)
+ * PC4      //Audio (not fitted)
+ * PC5
+ * PC6
+ * PC7      //Audio MCLK
+ * PC8      
+ * PC9      
+ * PC10     //Audio SCLK
+ * PC11
+ * PC12     //Audio SDIN
+ * PC13
+ * PC14
+ * PC15
+ * ****************************************************
+ * PD0		LCD_D2
+ * PD1		LCD_D3
+ * PD2
+ * PD3
+ * PD4      LCD_RD//AUDIO RESET
+ * PD5      LCD_WR
+ * PD6		TP_IRQ
+ * PD7		LCD_CS
+ * PD8      LCD_D13
+ * PD9      LCD_D14
+ * PD10     LCD_D15
+ * PD11     LCD_A16
+ * PD12     BL_CNTL
+ * PD13     
+ * PD14     LCD_D0
+ * PD15     LCD_D1
+ * ****************************************************
+ * PE0      //Accelerometer MEMS_INT1
+ * PE1      //Accelerometer MEMS_INT2
+ * PE2
+ * PE3      //Accelerometer CS_I2C/SPI
+ * PE4
+ * PE5
+ * PE6
+ * PE7		LCD_D4
+ * PE8		LCD_D5
+ * PE9		LCD_D6
+ * PE10		LCD_D7
+ * PE11		LCD_D8
+ * PE12		LCD_D9
+ * PE13		LCD_D10
+ * PE14		LCD_D11
+ * PE15		LCD_D12
+ */
+
+//--------------------------------------------------------------
